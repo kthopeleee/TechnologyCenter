@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header-container">
       {/* Logo Section */}
-      <a href="/" className="logo-link">
+      <a href="/TechnologyCenter" className="logo-link">
         <img src={LOGO} alt="Columbia Policy Institute" />
       </a>
 

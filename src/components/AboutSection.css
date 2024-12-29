@@ -1,34 +1,73 @@
-/* src/components/AboutSection.css */
-
-/* 2nd “slide” also 100vh, with a white background */
-.about-slide {
-    position: relative;
+.about-section {
     width: 100%;
-    height: 100vh;       /* Full screen height for the next “slide” */
-    background-color: #fff; 
-    overflow: hidden;
-  
-    display: flex;       /* center content if you like */
-    align-items: center;
-    justify-content: center;
+    background-color: #d8e6ef; /* Light blue background */
+    padding: 7rem 2rem; /* Adjust top/bottom spacing */
   }
   
-  /* Example styling for the text container */
-  .about-content {
-    width: 60%;
-    max-width: 800px;
-    text-align: left;
-    font-family: 'Joan', serif; /* or 'Times New Roman' */
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  /* Left side text area */
+  .about-text {
+    flex: 1 1 500px;
+    margin-right: 7rem; /* Add space between text and images */
+    padding-right: 3rem; 
+    font-family: 'Joan', serif; 
     color: #000;
+    box-sizing: border-box; 
   }
   
-  .about-content h2 {
+  .about-text h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
   }
   
-  .about-content p {
+  .about-text p {
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 1rem;
+  }
+  
+  /* Right side images container */
+  .about-images {
+    flex: 0 0 auto;
+    display: flex;
+    gap: 2rem; /* Space between the two images */
+    align-items: center;
+  }
+  
+  /* CPI logo styling */
+  .cpi-logo {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Paper published box */
+  .paper-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .placeholder-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .paper-box span {
+    font-family: 'Joan', serif; 
+    font-size: 1rem;
+    color: #000;
   }
