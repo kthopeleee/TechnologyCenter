@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer/Footer'; // Adjust path based on your folder structure
 import './InitiativesFirstPage.css';
 
 const InitiativesFirstPage = () => {
@@ -11,6 +12,7 @@ const InitiativesFirstPage = () => {
           on technology on campus.
         </p>
       </div>
+      <Footer /> {/* Footer component extracted and added here */}
     </div>
   );
 };

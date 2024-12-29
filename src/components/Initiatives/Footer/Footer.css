@@ -1,0 +1,28 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #004A7F;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .footer-nav {
+    display: flex;
+    gap: 2rem; /* Space between navigation links */
+  }
+  
+  .footer-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #FFD700; /* Gold on hover */
+  }

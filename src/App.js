@@ -7,11 +7,20 @@ import InitiativesFirstPage from './components/Initiatives/InitiativesFirstPage'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/TechnologyCenter">
       <Header />
       <Routes>
-        <Route path="/" element={<HeroSection />} />
-        <Route path="/about" element={<AboutSection />} />
+        {/* Single page combining HeroSection and AboutSection */}
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroSection />
+              <AboutSection />
+            </>
+          }
+        />
+        {/* Initiatives page */}
         <Route path="/initiatives" element={<InitiativesFirstPage />} />
       </Routes>
     </Router>
