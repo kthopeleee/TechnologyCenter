@@ -1,28 +1,27 @@
 .initiatives-page {
-    position: relative;
-    width: 100%; /* Full page width */
-    min-height: 100vh; /* Full page height */
-    background: #FFFFFF; /* White background */
-    display: flex; /* Flex layout */
-    flex-direction: column; /* Stack content vertically */
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-  }
-  
-  .header {
-    text-align: center; /* Center align text */
-    color: #000000; /* Black text */
-  }
-  
-  .header h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1rem; /* Adjust font size */
-    margin-bottom: 1rem; /* Space between title and text */
-  }
-  
-  .header p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.25rem; /* Slightly smaller font for paragraph */
-    line-height: 1.5; /* Adjust line height for readability */
-    margin: 0;
-  }
+  position: relative;
+  width: 100%; /* Full page width */
+  min-height: 100vh; /* Full page height */
+  background: #FFFFFF; /* White background */
+  display: flex; /* Flex layout */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+.header {
+  text-align: center; /* Center align text */
+  color: #000000; /* Black text */
+}
+
+.header h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 7rem; /* Increased font size for title */
+  margin-bottom: 1.5rem; /* Increased spacing between title and text */
+}
+.header p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem; /* Adjust font size */
+  line-height: 1.8; /* Adjust line height for readability */
+  margin: 0 3rem 1rem 3rem; /* Add left and right margins, 2rem, and a bottom margin */
+}
