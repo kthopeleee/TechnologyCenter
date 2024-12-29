@@ -6,11 +6,11 @@ import AboutSection from './components/AboutSection/AboutSection';
 import InitiativesFirstPage from './components/Initiatives/InitiativesFirstPage';
 
 function App() {
+  console.log("App rendered with basename /TechnologyCenter");
   return (
     <Router basename="/TechnologyCenter">
       <Header />
       <Routes>
-        {/* Single page combining HeroSection and AboutSection */}
         <Route
           path="/"
           element={
@@ -20,7 +20,6 @@ function App() {
             </>
           }
         />
-        {/* Initiatives page */}
         <Route path="/initiatives" element={<InitiativesFirstPage />} />
       </Routes>
     </Router>

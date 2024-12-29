@@ -12,7 +12,7 @@ const Header = () => {
 
       {/* Navigation Links */}
       <nav className="nav-links">
-        <a href="/initiatives" className="nav-item">Initiatives</a>
+        <a href="/TechnologyCenter/initiatives" className="nav-item">Initiatives</a>
         <a 
           href="https://www.columbiapolicyinstitute.org/contact-us" 
           target="_blank" 
