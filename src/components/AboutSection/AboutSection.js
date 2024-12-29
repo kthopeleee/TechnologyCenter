@@ -3,8 +3,8 @@ import React from 'react';
 import './AboutSection.css';
 
 // Use placeholders for the images
-import cpiLogo from '../assets/LOGO.png';  // or your actual CPI logo
-import orangeImg from '../assets/orange.png';  // placeholder for paper published
+import cpiLogo from '../../assets/LOGO.png';  // or your actual CPI logo
+import orangeImg from '../../assets/orange.png';  // placeholder for paper published
 
 const AboutSection = () => {
   return (

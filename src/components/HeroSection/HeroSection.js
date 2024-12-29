@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import "./HeroSection.css";
 
 // Example rotating images
-import screenshot1 from "../assets/screenshot1.png";
-import screenshot2 from "../assets/screenshot2.png";
+import screenshot1 from "../../assets/screenshot1.png";
+import screenshot2 from "../../assets/screenshot2.png";
 
 const HeroSection = () => {
   const images = [screenshot1, screenshot2];
