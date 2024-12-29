@@ -1,33 +1,45 @@
-/* src/components/Header.css */
+/* Header Container */
 .header-container {
-    width: 100%;
-    background: rgba(225, 225, 225, 0.5);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed; /* Keeps header fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 9999; /* Ensures it's above all other content */
   
-    /* Flex to space out the logo and the nav items */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    background: rgba(225, 225, 225, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(8px); /* Blur effect for background */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Optional shadow */
   
-    height: 100px; /* Adjust as needed */
-    padding: 0 2rem;
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Push logo and nav links apart */
+  
+    height: 150px;
+    padding: 0 2rem; /* Horizontal padding */
   }
   
-  /* Logo */
+  /* Logo Section */
   .logo-link img {
-    height: 80px; /* Tweak as needed */
-    width: auto;
+    height: 100px;
+    width: auto; /* Maintain aspect ratio */
   }
   
-  /* Nav links on the right */
+  /* Navigation Links Container */
   .nav-links {
-    display: flex;
+    display: flex; /* Flex layout for nav items */
     align-items: center;
-    gap: 2rem;
+    gap: 2rem; /* Space between links */
   }
   
+  /* Individual Navigation Items */
   .nav-item {
-    font-family: 'Joan', serif;
-    font-size: 25px;
-    color: #000;
+    font-family: 'Times New Roman', Times, serif; /* Font similar to Times */
+    font-size: 20px;
+    color: #000; /* Black text */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .nav-item:hover {
+    color: #004A7F; /* Change color on hover */
   }

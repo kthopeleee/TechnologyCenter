@@ -1,67 +1,46 @@
 /* src/components/HeroSection.css */
 
+/* 
+   This section starts at the top, behind the header.
+   The header is 100px tall, so we add some top padding
+   to ensure the text isn't blocked by the header. 
+*/
 .hero-section {
+    position: relative;
     width: 100%;
-    background-color: #d8e6ef;  /* Light bluish background */
-    position: relative;
-    padding: 3rem 0;           /* Top/bottom spacing */
-  }
+    height: 100vh; /* full viewport height */
+    padding-top: 120px; /* extra ~20px so text isn't right under header */
   
-  /* A container that can hold absolute-positioned elements */
-  .hero-container {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 700px;            /* Adjust as needed to fit your design */
-  }
-  
-  /* The text box with "Technology Center" */
-  .hero-text-box {
-    position: absolute;
-    left: 5%;                 /* Move this to position the text horizontally */
-    top: 50%;                 /* Centers text vertically in the container */
-    transform: translateY(-50%);
-    background-repeat: no-repeat;
+    /* Rotating background images */
+    background-size: cover;
     background-position: center;
-    background-size: cover;   /* Fills with your blue.png */
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in-out;
   
-    padding: 2rem;
-    color: #fff;
-    font-family: 'Joan', serif;
-    font-size: 3rem;          /* Adjust as needed */
+    /* Use flex to center the rectangle + text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* The dark rectangle behind the text */
+  .dark-rectangle {
+    background-color: rgba(17, 29, 6, 0.8); /* a semi-opaque dark color */
+    padding: 1rem 2rem;
+  
+    /* Keep it above the background */
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* The text */
+  .technology-center {
+    font-family: 'Joan', serif;  /* or "Times New Roman", Times, serif */
+    font-size: 80px;
     line-height: 1.2;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  }
-  
-  /* The big circle on the right */
-  .hero-circle {
-    position: absolute;
-    right: 5%;               /* Move circle horizontally as desired */
-    top: 10%;                /* Move circle vertically as desired */
-    width: 550px;            /* The size of the circle */
-    height: 550px;
-    border-radius: 50%;
-    overflow: hidden;        /* Crop the image to a circle */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  }
-  
-  /* The circle's image */
-  .hero-circle img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  /* Responsive adjustments for smaller screens */
-  @media (max-width: 768px) {
-    .hero-container {
-      height: 500px;
-    }
-    .hero-text-box {
-      font-size: 2rem;
-    }
-    .hero-circle {
-      width: 300px;
-      height: 300px;
-    }
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
   }

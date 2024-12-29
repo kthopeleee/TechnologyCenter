@@ -1,4 +1,3 @@
-// src/components/Header.js
 import React from 'react';
 import './Header.css';
 import LOGO from '../assets/LOGO.png';
@@ -6,12 +5,12 @@ import LOGO from '../assets/LOGO.png';
 const Header = () => {
   return (
     <header className="header-container">
-      {/* Left logo → homepage */}
+      {/* Logo Section */}
       <a href="/" className="logo-link">
         <img src={LOGO} alt="Columbia Policy Institute" />
       </a>
 
-      {/* Right nav links */}
+      {/* Navigation Links */}
       <nav className="nav-links">
         <a href="/initiatives" className="nav-item">Initiatives</a>
         <a 
