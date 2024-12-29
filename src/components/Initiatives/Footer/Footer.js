@@ -1,17 +1,30 @@
-import React from 'react';
-import './Footer.css';
-import { Link } from 'react-router-dom'; // For navigation links
+import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <footer className="footer">
-      <nav className="footer-nav">
-        <Link to="/initiatives" className="footer-link">Initiatives</Link>
-        <Link to="/about" className="footer-link">About</Link>
-        <Link to="/contact" className="footer-link">Contact</Link>
-        <Link to="/TechnologyCenter" className="footer-link">Home</Link>
-      </nav>
-    </footer>
+    <div className="footer">
+      <ul className="footer-list">
+        <li onClick={() => scrollToSection("top")}>Top</li>
+        <li onClick={() => scrollToSection("columbia-surveillance")}>
+          Columbia Surveillance
+        </li>
+        <li onClick={() => scrollToSection("columbia-analytics")}>
+          Columbia Analytics
+        </li>
+        <li onClick={() => scrollToSection("qr-code-risk")}>QR Code Risk</li>
+        <li onClick={() => scrollToSection("previous-initiatives")}>
+          Previous Initiatives
+        </li>
+      </ul>
+    </div>
   );
 };
 

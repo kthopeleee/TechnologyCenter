@@ -1,16 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Change BrowserRouter to HashRouter
 import Header from './components/Header/Header';
 import HeroSection from './components/HeroSection/HeroSection';
 import AboutSection from './components/AboutSection/AboutSection';
 import InitiativesFirstPage from './components/Initiatives/InitiativesFirstPage';
 
 function App() {
-  console.log("App rendered with basename /TechnologyCenter");
   return (
-    <Router basename="/TechnologyCenter">
+    <Router>
       <Header />
       <Routes>
+        {/* Single page combining HeroSection and AboutSection */}
         <Route
           path="/"
           element={
@@ -20,6 +20,7 @@ function App() {
             </>
           }
         />
+        {/* Initiatives page */}
         <Route path="/initiatives" element={<InitiativesFirstPage />} />
       </Routes>
     </Router>
