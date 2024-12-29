@@ -1,41 +1,40 @@
+// src/components/HeroSection.js
 import React, { useEffect, useState } from 'react';
 import './HeroSection.css';
-import blueBackground from '../assets/blue.png';
 import building1 from '../assets/building1.jpg';
 import building2 from '../assets/building2.jpg';
-import orange from '../assets/orange.png'; // example third image
+import building3 from '../assets/building3.jpg';
+import blue from '../assets/blue.png'; // The blue background rectangle
 
 const HeroSection = () => {
-  // Array of images to rotate
-  const rotatingItems = [building1, building2, orange];
+  const images = [building1, building2, building3];
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Rotate images every 2.5 seconds
+  // Change the displayed image every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex(prevIndex => (prevIndex + 1) % rotatingItems.length);
-    }, 2500);
+      setCurrentIndex((prev) => (prev + 1) % images.length);
+    }, 5000);
     return () => clearInterval(interval);
-  }, [rotatingItems.length]);
-
-  const currentSrc = rotatingItems[currentIndex];
+  }, [images.length]);
 
   return (
     <section className="hero-section">
-      <div className="circle-wrapper">
-        {/* The large rotating circle */}
-        <img 
-          src={currentSrc} 
-          alt="Rotating" 
-          className="hero-circle" 
-        />
-        
-        {/* The overlaid text with a blue background image */}
+      <div className="hero-container">
+        {/* Overlapping text block with a "blue.png" background */}
         <div 
-          className="text-overlay"
-          style={{ backgroundImage: `url(${blueBackground})` }}
+          className="hero-text-box" 
+          style={{ backgroundImage: `url(${blue})` }}
         >
           <h1>Technology Center</h1>
+        </div>
+
+        {/* The large circle on the right */}
+        <div className="hero-circle">
+          <img 
+            src={images[currentIndex]} 
+            alt="Building" 
+          />
         </div>
       </div>
     </section>
