@@ -1,0 +1,59 @@
+/* src/components/AboutSection.css */
+.about-section {
+    width: 100%;
+    background-color: #d8e6ef;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-content {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Wrap on smaller devices */
+    justify-content: space-between;
+  }
+  
+  .about-text {
+    flex: 1 1 400px;
+    margin-right: 2rem;
+  }
+  
+  .about-text h2 {
+    font-family: 'Joan', serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .about-logos {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  /* Another CPI logo */
+  .cpi-logo-2 img {
+    width: 120px;
+    height: auto;
+  }
+  
+  /* Gray box for "Paper published" */
+  .paper-box {
+    width: 120px;
+    height: 120px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Joan', serif;
+    font-size: 1rem;
+    text-align: center;
+  }

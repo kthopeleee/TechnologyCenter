@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+.header-container {
+    width: 100%;
+    background: rgba(225, 225, 225, 0.5);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  
+    /* Flex to space out the logo and the nav items */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    height: 100px; /* Adjust as needed */
+    padding: 0 2rem;
+  }
+  
+  /* Logo */
+  .logo-link img {
+    height: 80px; /* Tweak as needed */
+    width: auto;
+  }
+  
+  /* Nav links on the right */
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .nav-item {
+    font-family: 'Joan', serif;
+    font-size: 25px;
+    color: #000;
+  }

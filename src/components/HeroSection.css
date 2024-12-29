@@ -1,0 +1,81 @@
+/* HeroSection.css */
+
+/* Container that spans full width/height (for a flexible hero) */
+.hero-section {
+    width: 100%;
+    min-height: 80vh; 
+    background-color: #d8e6ef; /* Light bluish background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden; /* So the circle can overflow if needed */
+    padding: 2rem;
+  }
+  
+  /* Wrapper to hold the circle and text overlay in a "stacked" position */
+  .circle-wrapper {
+    position: relative;
+    width: 1200px;   /* 3x bigger than before (400px → 1200px) */
+    height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* The rotating circle itself */
+  .hero-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+    animation: spin 30s linear infinite; /* optional spin, 30s full rotation */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Keyframe for gentle spinning */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* The overlaid text block */
+  .text-overlay {
+    position: absolute; 
+    /* Center the block horizontally, but offset vertically if you like */
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+  
+    /* Use the user-supplied 'blue.png' as a background. 
+       Adjust size, repeat, etc. as needed. */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .text-overlay h1 {
+    font-family: 'Joan', serif;
+    font-size: 3rem; /* adjust as needed */
+    color: #fff;
+    margin: 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .circle-wrapper {
+      width: 600px;  /* scale down on smaller screens */
+      height: 600px;
+    }
+  
+    .text-overlay h1 {
+      font-size: 2rem;
+    }
+  }
