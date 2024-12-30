@@ -1,30 +1,147 @@
+/* src/components/GraphPage/GraphPage.css */
+
 .graph-page {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* Center vertically */
     min-height: 100vh;
     padding: 20px;
+    background-color: white; /* Light background */
 }
 
 .graph-container {
     text-align: center;
-    width: 90%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 1200px; /* Increased max-width for larger charts */
+    background-color: white; /* White background for contrast */
+    padding: 150px 20px; /* Increased top padding to position lower */
+    border-radius: 8px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Center the buttons */
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+.toggle-button,
+.hide-all-button,
+.show-all-button {
+    padding: 8px 16px;
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.hide-all-button {
+    background-color: #dc3545; /* Red background for "Hide All" */
+}
+
+.show-all-button {
+    background-color: #28a745; /* Green background for "Show All" */
+}
+
+.toggle-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.hide-all-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.show-all-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.graph-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; /* Center the graph-content */
+    gap: 20px; /* Space between legend and chart */
 }
 
 .toggle-container {
-    margin: 20px 0;
-    text-align: center;
+    text-align: left;
+    max-height: 500px; /* Adjust based on expected number of series */
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    width: 250px; /* Fixed width for the legend */
 }
 
-.toggle-container label {
-    margin-right: 10px;
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
     font-size: 14px;
+    cursor: pointer;
+}
+
+.legend-item.active {
+    font-weight: bold;
+    background-color: #e6f7ff; /* Light blue background for active items */
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+.legend-item input {
+    margin-right: 8px;
+}
+
+.color-box {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    border: 1px solid #000;
 }
 
 .chart-container {
-    height: 500px;
+    flex-grow: 1;
+    height: 500px; /* Ensure sufficient height for the chart */
     width: 100%;
+    transition: all 0.3s ease-in-out; /* Smooth transitions */
+}
+
+/* Responsive Adjustments */
+
+@media (max-width: 768px) {
+    .toggle-container {
+        width: 200px; /* Reduce width on smaller screens */
+    }
+
+    .legend-item {
+        font-size: 12px; /* Slightly smaller font */
+    }
+
+    .color-box {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .graph-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .toggle-container {
+        width: 100%; /* Full width on very small screens */
+        max-height: 300px;
+    }
+
+    .chart-container {
+        height: 400px; /* Adjust height for smaller screens */
+    }
 }
