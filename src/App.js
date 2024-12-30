@@ -1,3 +1,5 @@
+// App.js
+
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
@@ -20,7 +22,10 @@ function App() {
             </>
           }
         />
+        {/* This route shows the slideshow of initiatives */}
         <Route path="/initiatives" element={<InitiativesFirstPage />} />
+
+        {/* This route shows the single-initiative page */}
         <Route path="/initiatives/:id" element={<Initiative />} />
       </Routes>
     </Router>

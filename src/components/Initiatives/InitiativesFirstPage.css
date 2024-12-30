@@ -1,58 +1,17 @@
+/* src/components/Initiatives/InitiativesFirstPage.css */
+
 .initiatives-first-page {
   position: relative;
   width: 100%;
-  min-height: 100vh; /* Full page height */
-  background: #ffffff; /* White background */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 100vh; /* Let the Swiper fill up entire window. */
+  overflow: hidden; /* Don’t scroll the container itself; Swiper handles it. */
+  background: #ffffff;
 }
 
-.initiative-section {
-  text-align: center; /* Center text */
-  padding: 2rem 1rem; /* Add spacing */
-}
-
-.initiatives-title {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 3rem; /* Large title font */
-  font-weight: bold;
-  color: #000; /* Black text */
-  margin-bottom: 1rem;
-}
-
-.initiatives-description {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.5rem; /* Slightly smaller font for description */
-  color: #000; /* Black text */
-  max-width: 800px; /* Limit width for better readability */
-  line-height: 1.8; /* Adjust line height for readability */
-  margin: 0 auto; /* Center the text horizontally */
-}
-
+/* The nav in bottom-left corner: */
 .init-header {
   position: fixed;
   bottom: 20px;
   left: 20px;
-  z-index: 999; /* Ensure it appears above other elements */
-}
-
-.init-header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.init-header li {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
-  color: #000;
-  cursor: pointer;
-  margin-bottom: 0.5rem; /* Space between list items */
-}
-
-.init-header li:hover {
-  text-decoration: underline;
-  color: #004a7f; /* Optional hover effect */
+  z-index: 9999;
 }

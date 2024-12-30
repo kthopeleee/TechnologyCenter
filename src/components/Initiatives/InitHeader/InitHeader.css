@@ -1,27 +1,28 @@
-.header {
+/* InitHeader.css */
+.init-header {
+  /* Your positioning at bottom-left, etc. */
   position: fixed;
-  top: 20px; /* Adjust to align it at the top */
+  bottom: 20px;
   left: 20px;
-  background-color: transparent; /* No background for the header */
-  z-index: 9999; /* Ensure it's above all other content */
+  background-color: transparent;
+  z-index: 9999;
 }
 
-.header-list {
+.init-header ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: left;
 }
 
-.header-list li {
+.init-header li {
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   color: #000;
   cursor: pointer;
-  margin-bottom: 0.5rem; /* Spacing between items */
+  margin-bottom: 0.5rem;
 }
 
-.header-list li:hover {
+.init-header li:hover {
   text-decoration: underline;
-  color: #004a7f; /* Optional hover effect */
+  color: #004a7f;
 }
