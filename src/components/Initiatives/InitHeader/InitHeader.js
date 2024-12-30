@@ -1,26 +1,26 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./InitHeader.css";
 
 const InitHeader = () => {
-  const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
+  const navigate = useNavigate();
+
+  const navigateToPage = (id) => {
+    navigate(`/initiatives/${id}`);
   };
 
   return (
     <div className="init-header">
       <ul>
-        <li onClick={() => scrollToSection("top")}>Top</li>
-        <li onClick={() => scrollToSection("columbia-surveillance")}>
+        <li onClick={() => navigateToPage("top")}>Top</li>
+        <li onClick={() => navigateToPage("columbia-surveillance")}>
           Columbia Surveillance
         </li>
-        <li onClick={() => scrollToSection("columbia-analytics")}>
+        <li onClick={() => navigateToPage("columbia-analytics")}>
           Columbia Analytics
         </li>
-        <li onClick={() => scrollToSection("qr-code-risk")}>QR Code Risk</li>
-        <li onClick={() => scrollToSection("previous-initiatives")}>
+        <li onClick={() => navigateToPage("qr-code-risk")}>QR Code Risk</li>
+        <li onClick={() => navigateToPage("previous-initiatives")}>
           Previous Initiatives
         </li>
       </ul>

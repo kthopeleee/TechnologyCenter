@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import initiatives from "../../data/initiatives.json"; // Load initiatives JSON
+import initiatives from "../../assets/data/initiatives.json"; // Load initiatives JSON
 import "./Initiative.css";
 
 const Initiative = () => {
@@ -8,7 +8,7 @@ const Initiative = () => {
   const initiative = initiatives.find((item) => item.id === id);
 
   if (!initiative) {
-    return <div>Initiative not found!</div>;
+    return <div className="initiative-page">Initiative not found!</div>;
   }
 
   const { title, startTime, endTime, content, demoURLs, heroURL, centerDirector, team } = initiative;
@@ -16,11 +16,9 @@ const Initiative = () => {
   return (
     <div className="initiative-page">
       <div className="initiative-content">
-        <h1>{title}</h1>
-        <p className="initiative-time">
-          {startTime} - {endTime}
-        </p>
-        <p>{content}</p>
+        <h1 className="initiative-title">{title}</h1>
+        <p className="initiative-time">{startTime} - {endTime}</p>
+        <p className="initiative-description">{content}</p>
         <div className="initiative-links">
           {demoURLs.map((link, index) => (
             <a
@@ -37,9 +35,11 @@ const Initiative = () => {
         <p className="initiative-director">Center Director: {centerDirector}</p>
         <p className="initiative-team">Team: {team.join(", ")}</p>
       </div>
-      <div className="initiative-image">
-        <img src={heroURL} alt={`${title} visual`} />
-      </div>
+      {heroURL && (
+        <div className="initiative-image">
+          <img src={heroURL} alt={`${title} visual`} />
+        </div>
+      )}
     </div>
   );
 };

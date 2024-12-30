@@ -1,16 +1,16 @@
 import React from "react";
 import "./InitiativeCard.css";
 
-const InitiativeCard = ({ title, time, content, hasOwnPage, demoURLs, heroURL }) => {
+const InitiativeCard = ({ title, startTime, endTime, content, demoURLs, heroURL, centerDirector, team }) => {
   return (
     <div className="initiative-card">
-      {/* Title Section */}
+      {/* Title and Time */}
       <h2 className="initiative-title">{title}</h2>
+      <p className="initiative-time">
+        {startTime} - {endTime}
+      </p>
 
-      {/* Time Section */}
-      <p className="initiative-time">{time}</p>
-
-      {/* Content Section */}
+      {/* Content */}
       <p className="initiative-content">{content}</p>
 
       {/* Demo Links */}
@@ -28,10 +28,16 @@ const InitiativeCard = ({ title, time, content, hasOwnPage, demoURLs, heroURL })
         ))}
       </div>
 
-      {/* Image Section */}
-      <div className="initiative-image">
-        <img src={heroURL} alt={`${title} visual`} />
-      </div>
+      {/* Center Director and Team */}
+      <p className="initiative-director">Center Director: {centerDirector}</p>
+      <p className="initiative-team">Team: {team.join(", ")}</p>
+
+      {/* Hero Image */}
+      {heroURL && (
+        <div className="initiative-image">
+          <img src={heroURL} alt={`${title} visual`} />
+        </div>
+      )}
     </div>
   );
 };

@@ -1,5 +1,14 @@
 [
     {
+        "id": "top",
+        "title": "Top",
+        "time": "Always Accessible",
+        "content": "Welcome to the Initiatives page. Navigate below to see detailed projects.",
+        "hasOwnPage": false,
+        "demoURLs": [],
+        "heroURL": ""
+      },
+    {
       "id": "columbia-surveillance",
       "title": "Columbia Surveillance",
       "startTime": "Fall 2023",
