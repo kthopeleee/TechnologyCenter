@@ -1,18 +1,18 @@
-// InitiativeSlides.js (Swiper 9+ example)
+// InitiativeSlides.js
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Mousewheel } from "swiper/modules";
-
+import { Mousewheel } from "swiper/modules"; // <-- For mousewheel
 import "swiper/swiper-bundle.css";
+
 import initiativesData from "../../assets/data/initiatives.json";
 import "./InitiativeSlides.css";
 
 const InitiativeSlides = () => {
   return (
     <Swiper
-      modules={[Mousewheel]}
+      modules={[Mousewheel]}  // <-- specify the modules
       direction="vertical"
-      mousewheel
+      mousewheel               // enable mousewheel
       slidesPerView={1}
       spaceBetween={0}
       loop={false}
@@ -29,7 +29,6 @@ const InitiativeSlides = () => {
         </div>
       </SwiperSlide>
 
-      {/* Slides for your JSON data */}
       {initiativesData.map((initiative) => (
         <SwiperSlide key={initiative.id}>
           <div className="initiative-slide">
@@ -39,7 +38,7 @@ const InitiativeSlides = () => {
                 {initiative.startTime} - {initiative.endTime}
               </p>
               <p className="initiative-description">{initiative.content}</p>
-              {/* ... etc ... */}
+              {/* etc. */}
             </div>
 
             {initiative.heroURL && (
@@ -51,7 +50,7 @@ const InitiativeSlides = () => {
         </SwiperSlide>
       ))}
 
-      {/* Slide 5: "Previous Initiatives" */}
+      {/* Slide: Previous Initiatives */}
       <SwiperSlide>
         <div className="initiative-slide">
           <div className="slide-content">

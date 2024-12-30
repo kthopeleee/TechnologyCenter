@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* no scroll on body */
+/* no scroll on body     overflow: hidden;  */
   }
   
   .initiative-slide {
