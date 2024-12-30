@@ -1,0 +1,289 @@
+{
+    "name": "root",
+    "children": [
+        {
+            "name": "African-American Studies",
+            "value": 14.0
+        },
+        {
+            "name": "American Studies",
+            "value": 11.0
+        },
+        {
+            "name": "Anthropology",
+            "value": 9.0
+        },
+        {
+            "name": "Applied Mathematics",
+            "value": 10.0
+        },
+        {
+            "name": "Archaeology",
+            "value": 1.0
+        },
+        {
+            "name": "Architecture",
+            "value": 12.0
+        },
+        {
+            "name": "Art History",
+            "value": 23.0
+        },
+        {
+            "name": "Art History and Visual Arts",
+            "value": 2.0
+        },
+        {
+            "name": "Astronomy",
+            "value": 5.0
+        },
+        {
+            "name": "Astrophysics",
+            "value": 12.0
+        },
+        {
+            "name": "Biochemistry",
+            "value": 13.0
+        },
+        {
+            "name": "Biology",
+            "value": 56.0
+        },
+        {
+            "name": "Biophysics",
+            "value": 4.0
+        },
+        {
+            "name": "Chemistry",
+            "value": 8.0
+        },
+        {
+            "name": "Classics",
+            "value": 9.0
+        },
+        {
+            "name": "Comparative Literature and Society",
+            "value": 13.0
+        },
+        {
+            "name": "Computer Science",
+            "value": 133.0
+        },
+        {
+            "name": "Computer Science and Mathematics",
+            "value": 11.0
+        },
+        {
+            "name": "Creative Writing",
+            "value": 34.0
+        },
+        {
+            "name": "Dance",
+            "value": 6.0
+        },
+        {
+            "name": "Data Science",
+            "value": 6.0
+        },
+        {
+            "name": "Drama and Thetre Arts",
+            "value": 8.0
+        },
+        {
+            "name": "Earth Sciences",
+            "value": 4.0
+        },
+        {
+            "name": "East Asian Studies",
+            "value": 37.0
+        },
+        {
+            "name": "Economics",
+            "value": 128.0
+        },
+        {
+            "name": "Economics-Mathematics ",
+            "value": 20.0
+        },
+        {
+            "name": "Economics-Philosophy",
+            "value": 9.0
+        },
+        {
+            "name": "Economics-Political Science",
+            "value": 20.0
+        },
+        {
+            "name": "Economics-Statistics",
+            "value": 1.0
+        },
+        {
+            "name": "English",
+            "value": 63.0
+        },
+        {
+            "name": "Environmental Biology ",
+            "value": 11.0
+        },
+        {
+            "name": "Evironmental Chemistry",
+            "value": 1.0
+        },
+        {
+            "name": "Environmental Science",
+            "value": 8.0
+        },
+        {
+            "name": "Ethnicity and Race Studies",
+            "value": 20.0
+        },
+        {
+            "name": "Evolutionary Biology of the Human Species",
+            "value": 7.0
+        },
+        {
+            "name": "Film and Media Studies",
+            "value": 31.0
+        },
+        {
+            "name": "Financial Economics",
+            "value": 76.0
+        },
+        {
+            "name": "French",
+            "value": 5.0
+        },
+        {
+            "name": "French and Francophone Studies",
+            "value": 4.0
+        },
+        {
+            "name": "German Literature and Cultural History",
+            "value": 4.0
+        },
+        {
+            "name": "Hispanic Studies",
+            "value": 13.0
+        },
+        {
+            "name": "History",
+            "value": 87.0
+        },
+        {
+            "name": "History and Theory of Architecture",
+            "value": 3.0
+        },
+        {
+            "name": "Human Rights",
+            "value": 19.0
+        },
+        {
+            "name": "Information Sciences",
+            "value": 6.0
+        },
+        {
+            "name": "Latin-American and Caribbean Studies",
+            "value": 4.0
+        },
+        {
+            "name": "Linguistics",
+            "value": 9.0
+        },
+        {
+            "name": "Mathematics",
+            "value": 60.0
+        },
+        {
+            "name": "Mathematics-Statistics",
+            "value": 10.0
+        },
+        {
+            "name": "Medical Humanities",
+            "value": 6.0
+        },
+        {
+            "name": "Middle Eastern, South Asian, and African Studies",
+            "value": 13.0
+        },
+        {
+            "name": "Music",
+            "value": 16.0
+        },
+        {
+            "name": "Neuroscience and Behavior",
+            "value": 67.0
+        },
+        {
+            "name": "Philosophy",
+            "value": 41.0
+        },
+        {
+            "name": "Physics",
+            "value": 15.0
+        },
+        {
+            "name": "Political Science",
+            "value": 152.0
+        },
+        {
+            "name": "Political Science - Statistics",
+            "value": 8.0
+        },
+        {
+            "name": "Portugeuse",
+            "value": 1.0
+        },
+        {
+            "name": "Psychology",
+            "value": 117.0
+        },
+        {
+            "name": "Religion",
+            "value": 5.0
+        },
+        {
+            "name": "Russian Languages and Culture",
+            "value": 4.0
+        },
+        {
+            "name": "Russian Literature and Culture",
+            "value": 4.0
+        },
+        {
+            "name": "Slavic Studies",
+            "value": 2.0
+        },
+        {
+            "name": "Sociology",
+            "value": 38.0
+        },
+        {
+            "name": "Statistics",
+            "value": 18.0
+        },
+        {
+            "name": "Sustainable Development",
+            "value": 30.0
+        },
+        {
+            "name": "Urban Studies",
+            "value": 10.0
+        },
+        {
+            "name": "Visual Arts",
+            "value": 20.0
+        },
+        {
+            "name": "Women's and Gender Studies",
+            "value": 1.0
+        },
+        {
+            "name": "Yiddish Studies",
+            "value": 1.0
+        },
+        {
+            "name": "Grand Totals",
+            "value": 1629.0
+        }
+    ]
+}

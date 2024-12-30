@@ -3,6 +3,34 @@
         "id": 1,
         "title": "Tuition Percentage Change vs Inflation",
         "description": "A comparison of tuition percentage changes for schools over the years against the inflation rate.",
-        "dataPath": "Tuition_Percent_Change_with_Inflation_Cell.json"
+        "dataPath": "Tuition_Percent_Change_with_Inflation_Cell.json",
+        "year": "2022"
+    },
+
+    {
+        "id": 2,
+        "title": "Major Bubble Chart",
+        "description": "A visualization of the number of majors by program in a bubble chart format.",
+        "dataPath": "nivo_major_bubble.json",
+        "year": "2022"
+    },
+    {
+        "id": 3,
+        "title": "Concentration Bubble Chart",
+        "description": "A visualization of the number of concentrations by program in a bubble chart format.",
+        "dataPath": "nivo_concentration_bubble.json",
+        "year": "2022"
+    },
+    {
+        "id": 4,
+        "title": "Combined Bubble Chart",
+        "description": "A visualization of the total number of degrees by program in a bubble chart format.",
+        "dataPath": "nivo_total_bubble.json",
+        "year": "2022"
+
     }
+
+
+
+
 ]
