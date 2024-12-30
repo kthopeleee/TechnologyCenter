@@ -1,0 +1,46 @@
+[
+    {
+      "id": "columbia-surveillance",
+      "title": "Columbia Surveillance",
+      "startTime": "Fall 2023",
+      "endTime": "Spring 2024",
+      "content": "Technology Policy Center will be working on surveillance on campus and research prior history of histories of security and data privacy.",
+      "hasOwnPage": true,
+      "demoURLs": [
+        { "label": "Open", "url": "https://example.com/open" },
+        { "label": "GitHub", "url": "https://github.com/example/surveillance" }
+      ],
+      "heroURL": "./assets/surveillance.png",
+      "centerDirector": "Emily",
+      "team": ["Yoav", "Margret", "Katie"]
+    },
+    {
+      "id": "columbia-analytics",
+      "title": "Columbia Analytics",
+      "startTime": "Fall 2023",
+      "endTime": "Spring 2024",
+      "content": "Technology Policy Center will be working on two projects that will empower individuals and the Columbia University community in harnessing the full potential of data.",
+      "hasOwnPage": true,
+      "demoURLs": [
+        { "label": "Open", "url": "https://example.com/open" },
+        { "label": "GitHub", "url": "https://github.com/example/analytics" }
+      ],
+      "heroURL": "./assets/analytics.png",
+      "centerDirector": "Daniel",
+      "team": ["Emily", "Yoav", "Margret", "Katie"]
+    },
+    {
+      "id": "qr-code-risk",
+      "title": "QR Code Risk",
+      "startTime": "Spring 2024",
+      "endTime": "Fall 2024",
+      "content": "The Technology Center has focused on a comprehensive study to understand the utilization of QR codes and address the associated risks to data privacy.",
+      "hasOwnPage": true,
+      "demoURLs": [
+        { "label": "Open", "url": "https://example.com/qr-code" }
+      ],
+      "heroURL": "./assets/qr-code.png",
+      "centerDirector": "Daniel",
+      "team": ["Emily", "Yoav", "Margret", "Katie"]
+    }
+  ]

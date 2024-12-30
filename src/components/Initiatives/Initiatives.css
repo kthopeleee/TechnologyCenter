@@ -1,0 +1,23 @@
+.initiatives-page {
+    scroll-behavior: smooth;
+  }
+  
+  .initiative-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Full viewport height */
+    padding: 2rem;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  
+  .initiative-section h1,
+  .initiative-section h2 {
+    font-family: "Joan", serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }

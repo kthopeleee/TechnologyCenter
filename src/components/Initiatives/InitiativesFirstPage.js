@@ -1,18 +1,18 @@
-import React from 'react';
-import Footer from './Footer/Footer';
-import './InitiativesFirstPage.css';
+import React from "react";
+import InitHeader from "./InitHeader/InitHeader"; // Ensure path is correct
+import "./InitiativesFirstPage.css";
 
 const InitiativesFirstPage = () => {
-  console.log("InitiativesFirstPage rendered");
   return (
-    <div className="initiatives-page">
-      <div className="header">
-        <h1>Initiatives</h1>
-        <p>
-          Technology Policy Center leads an initiative every semester focusing on technology on campus.
+    <div className="initiatives-first-page">
+      <div id="top" className="initiative-section">
+        <h1 className="initiatives-title">Initiatives</h1>
+        <p className="initiatives-description">
+          Technology Policy Center leads an initiative every semester focusing
+          on technology on campus.
         </p>
       </div>
-      <Footer />
+      <InitHeader />
     </div>
   );
 };

@@ -1,18 +1,19 @@
-.footer {
+.header {
   position: fixed;
-  bottom: 20px; /* Adjust to align it within the viewport */
+  top: 20px; /* Adjust to align it at the top */
   left: 20px;
-  background-color: transparent; /* No background for the footer */
+  background-color: transparent; /* No background for the header */
+  z-index: 9999; /* Ensure it's above all other content */
 }
 
-.footer-list {
+.header-list {
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: left;
 }
 
-.footer-list li {
+.header-list li {
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   color: #000;
@@ -20,7 +21,7 @@
   margin-bottom: 0.5rem; /* Spacing between items */
 }
 
-.footer-list li:hover {
+.header-list li:hover {
   text-decoration: underline;
   color: #004a7f; /* Optional hover effect */
 }

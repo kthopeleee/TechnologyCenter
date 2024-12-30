@@ -1,27 +1,58 @@
-.initiatives-page {
+.initiatives-first-page {
   position: relative;
-  width: 100%; /* Full page width */
+  width: 100%;
   min-height: 100vh; /* Full page height */
-  background: #FFFFFF; /* White background */
-  display: flex; /* Flex layout */
-  flex-direction: column; /* Stack content vertically */
-  justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
+  background: #ffffff; /* White background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.header {
-  text-align: center; /* Center align text */
-  color: #000000; /* Black text */
+.initiative-section {
+  text-align: center; /* Center text */
+  padding: 2rem 1rem; /* Add spacing */
 }
 
-.header h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 7rem; /* Increased font size for title */
-  margin-bottom: 1.5rem; /* Increased spacing between title and text */
+.initiatives-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem; /* Large title font */
+  font-weight: bold;
+  color: #000; /* Black text */
+  margin-bottom: 1rem;
 }
-.header p {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1.5rem; /* Adjust font size */
+
+.initiatives-description {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem; /* Slightly smaller font for description */
+  color: #000; /* Black text */
+  max-width: 800px; /* Limit width for better readability */
   line-height: 1.8; /* Adjust line height for readability */
-  margin: 0 3rem 1rem 3rem; /* Add left and right margins, 2rem, and a bottom margin */
+  margin: 0 auto; /* Center the text horizontally */
+}
+
+.init-header {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999; /* Ensure it appears above other elements */
+}
+
+.init-header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.init-header li {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+  margin-bottom: 0.5rem; /* Space between list items */
+}
+
+.init-header li:hover {
+  text-decoration: underline;
+  color: #004a7f; /* Optional hover effect */
 }

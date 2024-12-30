@@ -1,7 +1,7 @@
 import React from "react";
-import "./Footer.css";
+import "./InitHeader.css";
 
-const Footer = () => {
+const InitHeader = () => {
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
@@ -10,8 +10,8 @@ const Footer = () => {
   };
 
   return (
-    <div className="footer">
-      <ul className="footer-list">
+    <div className="init-header">
+      <ul>
         <li onClick={() => scrollToSection("top")}>Top</li>
         <li onClick={() => scrollToSection("columbia-surveillance")}>
           Columbia Surveillance
@@ -28,4 +28,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default InitHeader;

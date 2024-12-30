@@ -1,0 +1,14 @@
+.previous-initiatives-page {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #ffffff;
+    padding: 2rem;
+  }
+  
+  .previous-initiatives-page h1 {
+    font-family: 'Joan', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
