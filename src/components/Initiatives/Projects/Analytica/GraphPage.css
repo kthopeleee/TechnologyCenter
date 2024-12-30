@@ -1,0 +1,30 @@
+.graph-page {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.graph-container {
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+}
+
+.toggle-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.toggle-container label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.chart-container {
+    height: 500px;
+    width: 100%;
+}

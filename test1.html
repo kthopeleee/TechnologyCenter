@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuition Percent Change Graph</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .line {
+            fill: none;
+            stroke-width: 2px;
+        }
+        .legend {
+            font-size: 12px;
+        }
+        .legend text {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tuition and Inflation Percent Changes Over Time</h2>
+    <svg id="chart" width="900" height="500"></svg>
+    <script>
+        // Load data
+        const dataFile = 'Tuition_Percent_Change_with_Inflation_Cell.json';
+        d3.json(dataFile).then(data => {
+            const years = Array.from(new Set(
+                Object.keys(data[0]).filter(key => /^\d{4}-\d{2}$|^\d{4}$/.test(key))
+            )).sort();
+
+            const svg = d3.select("#chart"),
+                  margin = {top: 20, right: 100, bottom: 50, left: 50},
+                  width = +svg.attr("width") - margin.left - margin.right,
+                  height = +svg.attr("height") - margin.top - margin.bottom;
+
+            const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+            const x = d3.scalePoint()
+                .domain(years)
+                .range([0, width]);
+
+            const y = d3.scaleLinear()
+                .domain([0, d3.max(data, d => 
+                    d3.max(years.map(year => parseFloat(d[year]) || 0))
+                )])
+                .range([height, 0]);
+
+            const color = d3.scaleOrdinal(d3.schemeCategory10);
+
+            const xAxis = d3.axisBottom(x);
+            const yAxis = d3.axisLeft(y);
+
+            g.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(xAxis)
+                .append("text")
+                .attr("x", width / 2)
+                .attr("y", 40)
+                .attr("fill", "black")
+                .text("Year");
+
+            g.append("g")
+                .call(yAxis)
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("x", -height / 2)
+                .attr("y", -40)
+                .attr("fill", "black")
+                .text("Percent Change");
+
+            const line = d3.line()
+                .x(d => x(d.year))
+                .y(d => y(d.value));
+
+            const schoolData = data.map(school => ({
+                name: school["School Description"],
+                values: years.map(year => ({
+                    year,
+                    value: parseFloat(school[year]) || null
+                }))
+            }));
+
+            const paths = g.selectAll(".line")
+                .data(schoolData)
+                .enter()
+                .append("path")
+                .attr("class", "line")
+                .attr("d", d => line(d.values))
+                .style("stroke", d => color(d.name))
+                .style("opacity", 0.8);
+
+            const legend = svg.append("g")
+                .attr("class", "legend")
+                .attr("transform", `translate(${width + margin.right / 2}, 20)`);
+
+            legend.selectAll("text")
+                .data(schoolData)
+                .enter()
+                .append("text")
+                .attr("x", 0)
+                .attr("y", (d, i) => i * 20)
+                .text(d => d.name)
+                .style("fill", d => color(d.name))
+                .on("click", function(event, d) {
+                    const active = this.active ? false : true;
+                    const opacity = active ? 0 : 0.8;
+                    d3.selectAll(`path`).filter(path => path.name === d.name)
+                        .transition().duration(500)
+                        .style("opacity", opacity);
+                    this.active = active;
+                });
+        });
+    </script>
+</body>
+</html>

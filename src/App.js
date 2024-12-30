@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection/AboutSection';
 import InitiativesFirstPage from './components/Initiatives/InitiativesFirstPage'; // Initiatives landing page
 import Initiative from './components/Initiatives/Initiative'; // Individual Initiative pages
 import InitHeader from './components/Initiatives/InitHeader/InitHeader'; // Initiative-specific header
+import GraphPage from './components/Initiatives/Projects/Analytica/GraphPage'; // Graph Page
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             </>
           }
         />
-        
+
         {/* Initiatives First Page */}
         <Route
           path="/initiatives"
@@ -44,6 +45,9 @@ function App() {
             </>
           }
         />
+
+        {/* Columbia Analytics Graph Page */}
+        <Route path="/initiatives/columbia-analytics/:id" element={<GraphPage />} />
       </Routes>
     </Router>
   );
