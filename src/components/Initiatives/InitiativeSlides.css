@@ -1,67 +1,20 @@
-/* src/components/Initiatives/InitiativeSlides.css */
-
-/* Each slide: fill the viewport and center content */
-.initiative-slide {
+/* InitiativeSlides.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* no scroll on body */
+  }
+  
+  .initiative-slide {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;       /* fill the entire screen's height */
-    width: 100vw;        /* fill entire screen width if needed */
-    box-sizing: border-box;
-    padding: 2rem;       /* spacing around content */
-    background: #fff;
+    height: 100vh;
+    width: 100vw;
   }
   
-  /* Text on the left, image on the right (optional) */
   .slide-content {
     max-width: 600px;
     margin-right: 2rem;
-    text-align: left;
-  }
-  
-  .initiative-title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-  
-  .initiative-time {
-    font-size: 1.5rem;
-    color: #555;
-    margin-bottom: 1rem;
-  }
-  
-  .initiative-description {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    margin-bottom: 1.5rem;
-  }
-  
-  .initiative-links {
-    margin-bottom: 1rem;
-  }
-  
-  .initiative-link {
-    display: inline-block;
-    margin-right: 1rem;
-    padding: 0.5rem 1rem;
-    background-color: #004a7f;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-  }
-  .initiative-link:hover {
-    background-color: #003b66;
-  }
-  
-  .initiative-director,
-  .initiative-team {
-    margin-top: 1rem;
-  }
-  
-  .slide-image img {
-    max-width: 300px; /* Adjust as needed */
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
   }

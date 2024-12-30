@@ -1,7 +1,8 @@
-// src/components/Initiatives/InitiativeSlides.js
-
+// InitiativeSlides.js (Swiper 9+ example)
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Mousewheel } from "swiper/modules";
+
 import "swiper/swiper-bundle.css";
 import initiativesData from "../../assets/data/initiatives.json";
 import "./InitiativeSlides.css";
@@ -9,26 +10,26 @@ import "./InitiativeSlides.css";
 const InitiativeSlides = () => {
   return (
     <Swiper
+      modules={[Mousewheel]}
       direction="vertical"
+      mousewheel
       slidesPerView={1}
-      mousewheel={true}
       spaceBetween={0}
       loop={false}
     >
-      {/* Slide 1: "Top" (intro) */}
+      {/* Slide 1: Intro */}
       <SwiperSlide>
         <div className="initiative-slide">
           <div className="slide-content">
             <h1 className="initiative-title">Initiatives</h1>
             <p className="initiative-description">
-              Technology Policy Center leads an initiative every semester
-              focusing on technology on campus.
+              Technology Policy Center leads an initiative every semester...
             </p>
           </div>
         </div>
       </SwiperSlide>
 
-      {/* Slide 2, 3, 4: for each item in JSON (Surveillance / Analytics / QR) */}
+      {/* Slides for your JSON data */}
       {initiativesData.map((initiative) => (
         <SwiperSlide key={initiative.id}>
           <div className="initiative-slide">
@@ -38,40 +39,12 @@ const InitiativeSlides = () => {
                 {initiative.startTime} - {initiative.endTime}
               </p>
               <p className="initiative-description">{initiative.content}</p>
-
-              {/* Demo links */}
-              {initiative.demoURLs && initiative.demoURLs.length > 0 && (
-                <div className="initiative-links">
-                  {initiative.demoURLs.map((link, idx) => (
-                    <a
-                      key={idx}
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="initiative-link"
-                    >
-                      {link.label}
-                    </a>
-                  ))}
-                </div>
-              )}
-
-              {/* Director + Team */}
-              <p className="initiative-director">
-                Center Director: {initiative.centerDirector}
-              </p>
-              <p className="initiative-team">
-                Team: {initiative.team.join(", ")}
-              </p>
+              {/* ... etc ... */}
             </div>
 
-            {/* Hero image */}
             {initiative.heroURL && (
               <div className="slide-image">
-                <img
-                  src={initiative.heroURL}
-                  alt={`${initiative.title} visual`}
-                />
+                <img src={initiative.heroURL} alt={initiative.title} />
               </div>
             )}
           </div>
@@ -84,8 +57,7 @@ const InitiativeSlides = () => {
           <div className="slide-content">
             <h1 className="initiative-title">Previous Initiatives</h1>
             <p className="initiative-description">
-              Here are past projects that the Technology Policy Center
-              has worked on over different semesters.
+              Past projects...
             </p>
           </div>
         </div>
