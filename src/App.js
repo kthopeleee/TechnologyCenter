@@ -1,10 +1,11 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Use HashRouter for GitHub Pages compatibility
-import Header from './components/Header/Header'; // Assuming a separate Header component
-import HeroSection from './components/HeroSection/HeroSection'; // HeroSection file
-import AboutSection from './components/AboutSection/AboutSection'; // AboutSection file
-import InitiativesFirstPage from './components/Initiatives/InitiativesFirstPage'; // Initiatives main page
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Using HashRouter for GitHub Pages
+import Header from './components/Header/Header'; // Main Header
+import HeroSection from './components/HeroSection/HeroSection';
+import AboutSection from './components/AboutSection/AboutSection';
+import InitiativesFirstPage from './components/Initiatives/InitiativesFirstPage'; // Initiatives landing page
 import Initiative from './components/Initiatives/Initiative'; // Individual Initiative pages
+import InitHeader from './components/Initiatives/InitHeader/InitHeader'; // Initiative-specific header
 
 function App() {
   return (
@@ -21,10 +22,28 @@ function App() {
             </>
           }
         />
-        {/* Initiatives Page */}
-        <Route path="/initiatives" element={<InitiativesFirstPage />} />
+        
+        {/* Initiatives First Page */}
+        <Route
+          path="/initiatives"
+          element={
+            <>
+              <InitHeader /> {/* Display InitHeader here */}
+              <InitiativesFirstPage />
+            </>
+          }
+        />
+
         {/* Individual Initiative Pages */}
-        <Route path="/initiatives/:id" element={<Initiative />} />
+        <Route
+          path="/initiatives/:id"
+          element={
+            <>
+              <InitHeader /> {/* Display InitHeader here as well */}
+              <Initiative />
+            </>
+          }
+        />
       </Routes>
     </Router>
   );
