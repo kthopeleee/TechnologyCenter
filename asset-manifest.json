@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TechnologyCenter/static/css/main.dda9e2c8.css",
-    "main.js": "/TechnologyCenter/static/js/main.b43cb13e.js",
+    "main.css": "/TechnologyCenter/static/css/main.7a196678.css",
+    "main.js": "/TechnologyCenter/static/js/main.3f39fde1.js",
     "static/media/orange.png": "/TechnologyCenter/static/media/orange.5ebd5edf3a3323881685.png",
     "static/media/LOGO.png": "/TechnologyCenter/static/media/LOGO.639c46d66d377333e3aa.png",
     "index.html": "/TechnologyCenter/index.html",
-    "main.dda9e2c8.css.map": "/TechnologyCenter/static/css/main.dda9e2c8.css.map",
-    "main.b43cb13e.js.map": "/TechnologyCenter/static/js/main.b43cb13e.js.map"
+    "main.7a196678.css.map": "/TechnologyCenter/static/css/main.7a196678.css.map",
+    "main.3f39fde1.js.map": "/TechnologyCenter/static/js/main.3f39fde1.js.map"
   },
   "entrypoints": [
-    "static/css/main.dda9e2c8.css",
-    "static/js/main.b43cb13e.js"
+    "static/css/main.7a196678.css",
+    "static/js/main.3f39fde1.js"
   ]
 }
