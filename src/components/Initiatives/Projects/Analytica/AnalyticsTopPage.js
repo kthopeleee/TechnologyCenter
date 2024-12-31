@@ -9,8 +9,7 @@ const AnalyticsTopPage = () => {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    // If your graphConfig.json is in src/assets/data, we can import it directly
-    // If it's in public/analytica, you'd do a fetch instead.
+    // Load graphConfig data
     setItems(graphConfig);
   }, []);
 
@@ -18,7 +17,13 @@ const AnalyticsTopPage = () => {
     <div className="analytics-top-container">
       {/* Optional gray rectangle or background image */}
       <div className="analytics-header-bg" />
-      <h1 className="analytics-heading">Columbia Analytica</h1>
+      
+      {/* Link the heading */}
+      <h1 className="analytics-heading">
+        <Link to="/initiatives/columbia-analytics">
+          Columbia Analytica
+        </Link>
+      </h1>
 
       {/* List of items with links to /initiatives/columbia-analytics/:id */}
       <div className="analytics-list-container">
