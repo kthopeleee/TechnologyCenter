@@ -7,6 +7,7 @@ import InitiativesFirstPage from './components/Initiatives/InitiativesFirstPage'
 import Initiative from './components/Initiatives/Initiative'; // Individual Initiative pages
 import InitHeader from './components/Initiatives/InitHeader/InitHeader'; // Initiative-specific header
 import GraphPage from './components/Initiatives/Projects/Analytica/GraphPage'; // Graph Page
+import AnalyticsTopPage from "./components/Initiatives/Projects/Analytica/AnalyticsTopPage"; // Columbia Analytica Top Page
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
           path="/initiatives"
           element={
             <>
-              <InitHeader /> {/* Display InitHeader here */}
+              <InitHeader />
               <InitiativesFirstPage />
             </>
           }
@@ -40,14 +41,23 @@ function App() {
           path="/initiatives/:id"
           element={
             <>
-              <InitHeader /> {/* Display InitHeader here as well */}
+              <InitHeader />
               <Initiative />
             </>
           }
         />
 
-        {/* Columbia Analytics Graph Page */}
-        <Route path="/initiatives/columbia-analytics/:id" element={<GraphPage />} />
+        {/* Columbia Analytics -> 'top' page (list of items) */}
+        <Route
+          path="/initiatives/columbia-analytics/top"
+          element={<AnalyticsTopPage />}
+        />
+
+        {/* Columbia Analytics -> Graph Page (displays the actual chart) */}
+        <Route
+          path="/initiatives/columbia-analytics/:id"
+          element={<GraphPage />}
+        />
       </Routes>
     </Router>
   );

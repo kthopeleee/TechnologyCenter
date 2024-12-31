@@ -22,7 +22,7 @@
       "content": "Technology Policy Center will be working on two projects that will empower individuals and the Columbia University community in harnessing the full potential of data.",
       "hasOwnPage": true,
       "demoURLs": [
-        { "label": "Open", "url": "http://localhost:3000/TechnologyCenter/#/initiatives/columbia-analytics/1" },
+        { "label": "Open", "url": "http://localhost:3000/TechnologyCenter/#/initiatives/columbia-analytics/top" },
         { "label": "GitHub", "url": "https://github.com/Columbia-Policy-Institute/Columbia-Analytica" }
       ],
       "heroURL": "./assets/analytics.png",

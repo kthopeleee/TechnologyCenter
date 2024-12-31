@@ -1,0 +1,68 @@
+/* src/components/Initiatives/Projects/Analytica/AnalyticsTopPage.css */
+
+/* Container fills the screen. Adjust as needed if you want a fixed height. */
+.analytics-top-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    overflow: hidden; /* If you want to prevent page scrolling, enable this. */
+  }
+  
+  /* Example background bar at the top (optional) */
+  .analytics-header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 172px;
+    background: rgba(225, 225, 225, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* "Columbia Analytica" heading */
+  .analytics-heading {
+    position: absolute;
+    left: 50%;
+    top: 218px; 
+    transform: translateX(-50%);
+    font-family: 'Joan', serif;
+    font-size: 40px;
+    line-height: 52px;
+    color: #000;
+    z-index: 2;
+    margin: 0;
+  }
+  
+  /* Container for the list of items, below the heading. 
+     Let's make it scrollable if there's a lot of items. */
+  .analytics-list-container {
+    position: absolute;
+    top: 298px; /* Just under the heading */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 937px; /* from your design specs */
+    height: calc(100vh - 298px);
+    overflow-y: auto; 
+    text-align: center;
+    z-index: 2;
+  }
+  
+  /* Each line item (title) */
+  .analytics-item {
+    display: block;
+    font-family: 'Joan', serif;
+    font-size: 60px;
+    line-height: 78px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Hover effect: black row, white text */
+  .analytics-item:hover {
+    background-color: #000;
+    color: #fff;
+  }
