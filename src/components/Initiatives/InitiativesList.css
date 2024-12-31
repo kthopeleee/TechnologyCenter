@@ -1,0 +1,59 @@
+.initiatives-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .initiative-card {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .initiative-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .initiative-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .initiative-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .initiative-time {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .initiative-content {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .initiative-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #004a7f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .initiative-link:hover {
+    background-color: #003b66;
+  }
