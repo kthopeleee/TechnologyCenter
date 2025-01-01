@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@nivo/circle-packing": "^0.88.0",
     "@nivo/core": "^0.88.0",
     "@nivo/line": "^0.88.0",
     "cra-template": "1.2.0",

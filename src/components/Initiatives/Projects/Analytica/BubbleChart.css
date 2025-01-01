@@ -1,0 +1,8 @@
+.bubble-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}

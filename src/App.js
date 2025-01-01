@@ -8,6 +8,7 @@ import Initiative from './components/Initiatives/Initiative'; // Individual Init
 import InitHeader from './components/Initiatives/InitHeader/InitHeader'; // Initiative-specific header
 import GraphPage from './components/Initiatives/Projects/Analytica/GraphPage'; // Graph Page
 import AnalyticsTopPage from "./components/Initiatives/Projects/Analytica/AnalyticsTopPage"; // Columbia Analytica Top Page
+import ChartPage from './components/Initiatives/Projects/Analytica/ChartPage'; // ChartPage component for Bubble Chart
 
 function App() {
   return (
