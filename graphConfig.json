@@ -1,8 +1,0 @@
-[
-    {
-        "id": 1,
-        "title": "Tuition Percentage Change vs Inflation",
-        "description": "A comparison of tuition percentage changes for schools over the years against the inflation rate.",
-        "dataPath": "Tuition_Percent_Change_with_Inflation_Cell.json"
-    }
-]
