@@ -1,0 +1,1193 @@
+[
+    {
+        "id": "African-American Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 10.0
+            },
+            {
+                "x": "Concentration",
+                "y": 4.0
+            },
+            {
+                "x": "Totals",
+                "y": 14.0
+            }
+        ]
+    },
+    {
+        "id": "American Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 8.0
+            },
+            {
+                "x": "Concentration",
+                "y": 3.0
+            },
+            {
+                "x": "Totals",
+                "y": 11.0
+            }
+        ]
+    },
+    {
+        "id": "Anthropology",
+        "data": [
+            {
+                "x": "Major",
+                "y": 6.0
+            },
+            {
+                "x": "Concentration",
+                "y": 3.0
+            },
+            {
+                "x": "Totals",
+                "y": 9.0
+            }
+        ]
+    },
+    {
+        "id": "Applied Mathematics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 10.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 10.0
+            }
+        ]
+    },
+    {
+        "id": "Archaeology",
+        "data": [
+            {
+                "x": "Major",
+                "y": 0.0
+            },
+            {
+                "x": "Concentration",
+                "y": 1.0
+            },
+            {
+                "x": "Totals",
+                "y": 1.0
+            }
+        ]
+    },
+    {
+        "id": "Architecture",
+        "data": [
+            {
+                "x": "Major",
+                "y": 12.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 12.0
+            }
+        ]
+    },
+    {
+        "id": "Art History",
+        "data": [
+            {
+                "x": "Major",
+                "y": 14.0
+            },
+            {
+                "x": "Concentration",
+                "y": 9.0
+            },
+            {
+                "x": "Totals",
+                "y": 23.0
+            }
+        ]
+    },
+    {
+        "id": "Art History and Visual Arts",
+        "data": [
+            {
+                "x": "Major",
+                "y": 2.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 2.0
+            }
+        ]
+    },
+    {
+        "id": "Astronomy",
+        "data": [
+            {
+                "x": "Major",
+                "y": 5.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 5.0
+            }
+        ]
+    },
+    {
+        "id": "Astrophysics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 12.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 12.0
+            }
+        ]
+    },
+    {
+        "id": "Biochemistry",
+        "data": [
+            {
+                "x": "Major",
+                "y": 13.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 13.0
+            }
+        ]
+    },
+    {
+        "id": "Biology",
+        "data": [
+            {
+                "x": "Major",
+                "y": 51.0
+            },
+            {
+                "x": "Concentration",
+                "y": 5.0
+            },
+            {
+                "x": "Totals",
+                "y": 56.0
+            }
+        ]
+    },
+    {
+        "id": "Biophysics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 4.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 4.0
+            }
+        ]
+    },
+    {
+        "id": "Chemistry",
+        "data": [
+            {
+                "x": "Major",
+                "y": 5.0
+            },
+            {
+                "x": "Concentration",
+                "y": 3.0
+            },
+            {
+                "x": "Totals",
+                "y": 8.0
+            }
+        ]
+    },
+    {
+        "id": "Classics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 7.0
+            },
+            {
+                "x": "Concentration",
+                "y": 2.0
+            },
+            {
+                "x": "Totals",
+                "y": 9.0
+            }
+        ]
+    },
+    {
+        "id": "Comparative Literature and Society",
+        "data": [
+            {
+                "x": "Major",
+                "y": 13.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 13.0
+            }
+        ]
+    },
+    {
+        "id": "Computer Science",
+        "data": [
+            {
+                "x": "Major",
+                "y": 95.0
+            },
+            {
+                "x": "Concentration",
+                "y": 38.0
+            },
+            {
+                "x": "Totals",
+                "y": 133.0
+            }
+        ]
+    },
+    {
+        "id": "Computer Science and Mathematics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 11.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 11.0
+            }
+        ]
+    },
+    {
+        "id": "Creative Writing",
+        "data": [
+            {
+                "x": "Major",
+                "y": 34.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 34.0
+            }
+        ]
+    },
+    {
+        "id": "Dance",
+        "data": [
+            {
+                "x": "Major",
+                "y": 6.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 6.0
+            }
+        ]
+    },
+    {
+        "id": "Data Science",
+        "data": [
+            {
+                "x": "Major",
+                "y": 6.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 6.0
+            }
+        ]
+    },
+    {
+        "id": "Drama and Thetre Arts",
+        "data": [
+            {
+                "x": "Major",
+                "y": 8.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 8.0
+            }
+        ]
+    },
+    {
+        "id": "Earth Sciences",
+        "data": [
+            {
+                "x": "Major",
+                "y": 2.0
+            },
+            {
+                "x": "Concentration",
+                "y": 2.0
+            },
+            {
+                "x": "Totals",
+                "y": 4.0
+            }
+        ]
+    },
+    {
+        "id": "East Asian Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 18.0
+            },
+            {
+                "x": "Concentration",
+                "y": 19.0
+            },
+            {
+                "x": "Totals",
+                "y": 37.0
+            }
+        ]
+    },
+    {
+        "id": "Economics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 102.0
+            },
+            {
+                "x": "Concentration",
+                "y": 26.0
+            },
+            {
+                "x": "Totals",
+                "y": 128.0
+            }
+        ]
+    },
+    {
+        "id": "Economics-Mathematics ",
+        "data": [
+            {
+                "x": "Major",
+                "y": 20.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 20.0
+            }
+        ]
+    },
+    {
+        "id": "Economics-Philosophy",
+        "data": [
+            {
+                "x": "Major",
+                "y": 9.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 9.0
+            }
+        ]
+    },
+    {
+        "id": "Economics-Political Science",
+        "data": [
+            {
+                "x": "Major",
+                "y": 20.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 20.0
+            }
+        ]
+    },
+    {
+        "id": "Economics-Statistics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 1.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 1.0
+            }
+        ]
+    },
+    {
+        "id": "English",
+        "data": [
+            {
+                "x": "Major",
+                "y": 54.0
+            },
+            {
+                "x": "Concentration",
+                "y": 9.0
+            },
+            {
+                "x": "Totals",
+                "y": 63.0
+            }
+        ]
+    },
+    {
+        "id": "Environmental Biology ",
+        "data": [
+            {
+                "x": "Major",
+                "y": 8.0
+            },
+            {
+                "x": "Concentration",
+                "y": 3.0
+            },
+            {
+                "x": "Totals",
+                "y": 11.0
+            }
+        ]
+    },
+    {
+        "id": "Evironmental Chemistry",
+        "data": [
+            {
+                "x": "Major",
+                "y": 1.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 1.0
+            }
+        ]
+    },
+    {
+        "id": "Environmental Science",
+        "data": [
+            {
+                "x": "Major",
+                "y": 6.0
+            },
+            {
+                "x": "Concentration",
+                "y": 2.0
+            },
+            {
+                "x": "Totals",
+                "y": 8.0
+            }
+        ]
+    },
+    {
+        "id": "Ethnicity and Race Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 6.0
+            },
+            {
+                "x": "Concentration",
+                "y": 14.0
+            },
+            {
+                "x": "Totals",
+                "y": 20.0
+            }
+        ]
+    },
+    {
+        "id": "Evolutionary Biology of the Human Species",
+        "data": [
+            {
+                "x": "Major",
+                "y": 3.0
+            },
+            {
+                "x": "Concentration",
+                "y": 4.0
+            },
+            {
+                "x": "Totals",
+                "y": 7.0
+            }
+        ]
+    },
+    {
+        "id": "Film and Media Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 31.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 31.0
+            }
+        ]
+    },
+    {
+        "id": "Financial Economics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 76.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 76.0
+            }
+        ]
+    },
+    {
+        "id": "French",
+        "data": [
+            {
+                "x": "Major",
+                "y": 2.0
+            },
+            {
+                "x": "Concentration",
+                "y": 3.0
+            },
+            {
+                "x": "Totals",
+                "y": 5.0
+            }
+        ]
+    },
+    {
+        "id": "French and Francophone Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 0.0
+            },
+            {
+                "x": "Concentration",
+                "y": 4.0
+            },
+            {
+                "x": "Totals",
+                "y": 4.0
+            }
+        ]
+    },
+    {
+        "id": "German Literature and Cultural History",
+        "data": [
+            {
+                "x": "Major",
+                "y": 3.0
+            },
+            {
+                "x": "Concentration",
+                "y": 1.0
+            },
+            {
+                "x": "Totals",
+                "y": 4.0
+            }
+        ]
+    },
+    {
+        "id": "Hispanic Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 3.0
+            },
+            {
+                "x": "Concentration",
+                "y": 10.0
+            },
+            {
+                "x": "Totals",
+                "y": 13.0
+            }
+        ]
+    },
+    {
+        "id": "History",
+        "data": [
+            {
+                "x": "Major",
+                "y": 65.0
+            },
+            {
+                "x": "Concentration",
+                "y": 22.0
+            },
+            {
+                "x": "Totals",
+                "y": 87.0
+            }
+        ]
+    },
+    {
+        "id": "History and Theory of Architecture",
+        "data": [
+            {
+                "x": "Major",
+                "y": 3.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 3.0
+            }
+        ]
+    },
+    {
+        "id": "Human Rights",
+        "data": [
+            {
+                "x": "Major",
+                "y": 14.0
+            },
+            {
+                "x": "Concentration",
+                "y": 5.0
+            },
+            {
+                "x": "Totals",
+                "y": 19.0
+            }
+        ]
+    },
+    {
+        "id": "Information Sciences",
+        "data": [
+            {
+                "x": "Major",
+                "y": 6.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 6.0
+            }
+        ]
+    },
+    {
+        "id": "Latin-American and Caribbean Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 1.0
+            },
+            {
+                "x": "Concentration",
+                "y": 3.0
+            },
+            {
+                "x": "Totals",
+                "y": 4.0
+            }
+        ]
+    },
+    {
+        "id": "Linguistics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 9.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 9.0
+            }
+        ]
+    },
+    {
+        "id": "Mathematics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 33.0
+            },
+            {
+                "x": "Concentration",
+                "y": 27.0
+            },
+            {
+                "x": "Totals",
+                "y": 60.0
+            }
+        ]
+    },
+    {
+        "id": "Mathematics-Statistics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 10.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 10.0
+            }
+        ]
+    },
+    {
+        "id": "Medical Humanities",
+        "data": [
+            {
+                "x": "Major",
+                "y": 6.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 6.0
+            }
+        ]
+    },
+    {
+        "id": "Middle Eastern, South Asian, and African Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 9.0
+            },
+            {
+                "x": "Concentration",
+                "y": 4.0
+            },
+            {
+                "x": "Totals",
+                "y": 13.0
+            }
+        ]
+    },
+    {
+        "id": "Music",
+        "data": [
+            {
+                "x": "Major",
+                "y": 13.0
+            },
+            {
+                "x": "Concentration",
+                "y": 3.0
+            },
+            {
+                "x": "Totals",
+                "y": 16.0
+            }
+        ]
+    },
+    {
+        "id": "Neuroscience and Behavior",
+        "data": [
+            {
+                "x": "Major",
+                "y": 67.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 67.0
+            }
+        ]
+    },
+    {
+        "id": "Philosophy",
+        "data": [
+            {
+                "x": "Major",
+                "y": 29.0
+            },
+            {
+                "x": "Concentration",
+                "y": 12.0
+            },
+            {
+                "x": "Totals",
+                "y": 41.0
+            }
+        ]
+    },
+    {
+        "id": "Physics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 12.0
+            },
+            {
+                "x": "Concentration",
+                "y": 3.0
+            },
+            {
+                "x": "Totals",
+                "y": 15.0
+            }
+        ]
+    },
+    {
+        "id": "Political Science",
+        "data": [
+            {
+                "x": "Major",
+                "y": 142.0
+            },
+            {
+                "x": "Concentration",
+                "y": 10.0
+            },
+            {
+                "x": "Totals",
+                "y": 152.0
+            }
+        ]
+    },
+    {
+        "id": "Political Science - Statistics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 8.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 8.0
+            }
+        ]
+    },
+    {
+        "id": "Portugeuse",
+        "data": [
+            {
+                "x": "Major",
+                "y": 0.0
+            },
+            {
+                "x": "Concentration",
+                "y": 1.0
+            },
+            {
+                "x": "Totals",
+                "y": 1.0
+            }
+        ]
+    },
+    {
+        "id": "Psychology",
+        "data": [
+            {
+                "x": "Major",
+                "y": 81.0
+            },
+            {
+                "x": "Concentration",
+                "y": 36.0
+            },
+            {
+                "x": "Totals",
+                "y": 117.0
+            }
+        ]
+    },
+    {
+        "id": "Religion",
+        "data": [
+            {
+                "x": "Major",
+                "y": 3.0
+            },
+            {
+                "x": "Concentration",
+                "y": 2.0
+            },
+            {
+                "x": "Totals",
+                "y": 5.0
+            }
+        ]
+    },
+    {
+        "id": "Russian Languages and Culture",
+        "data": [
+            {
+                "x": "Major",
+                "y": 1.0
+            },
+            {
+                "x": "Concentration",
+                "y": 3.0
+            },
+            {
+                "x": "Totals",
+                "y": 4.0
+            }
+        ]
+    },
+    {
+        "id": "Russian Literature and Culture",
+        "data": [
+            {
+                "x": "Major",
+                "y": 1.0
+            },
+            {
+                "x": "Concentration",
+                "y": 3.0
+            },
+            {
+                "x": "Totals",
+                "y": 4.0
+            }
+        ]
+    },
+    {
+        "id": "Slavic Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 0.0
+            },
+            {
+                "x": "Concentration",
+                "y": 2.0
+            },
+            {
+                "x": "Totals",
+                "y": 2.0
+            }
+        ]
+    },
+    {
+        "id": "Sociology",
+        "data": [
+            {
+                "x": "Major",
+                "y": 21.0
+            },
+            {
+                "x": "Concentration",
+                "y": 17.0
+            },
+            {
+                "x": "Totals",
+                "y": 38.0
+            }
+        ]
+    },
+    {
+        "id": "Statistics",
+        "data": [
+            {
+                "x": "Major",
+                "y": 4.0
+            },
+            {
+                "x": "Concentration",
+                "y": 14.0
+            },
+            {
+                "x": "Totals",
+                "y": 18.0
+            }
+        ]
+    },
+    {
+        "id": "Sustainable Development",
+        "data": [
+            {
+                "x": "Major",
+                "y": 30.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 30.0
+            }
+        ]
+    },
+    {
+        "id": "Urban Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 10.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 10.0
+            }
+        ]
+    },
+    {
+        "id": "Visual Arts",
+        "data": [
+            {
+                "x": "Major",
+                "y": 9.0
+            },
+            {
+                "x": "Concentration",
+                "y": 11.0
+            },
+            {
+                "x": "Totals",
+                "y": 20.0
+            }
+        ]
+    },
+    {
+        "id": "Women's and Gender Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 1.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 1.0
+            }
+        ]
+    },
+    {
+        "id": "Yiddish Studies",
+        "data": [
+            {
+                "x": "Major",
+                "y": 1.0
+            },
+            {
+                "x": "Concentration",
+                "y": 0.0
+            },
+            {
+                "x": "Totals",
+                "y": 1.0
+            }
+        ]
+    }
+
+]
