@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/TechnologyCenter/static/css/main.67307552.css",
-    "main.js": "/TechnologyCenter/static/js/main.5be7402e.js",
+    "main.js": "/TechnologyCenter/static/js/main.9f1b387b.js",
     "static/media/orange.png": "/TechnologyCenter/static/media/orange.5ebd5edf3a3323881685.png",
     "static/media/LOGO.png": "/TechnologyCenter/static/media/LOGO.639c46d66d377333e3aa.png",
     "static/media/screenshot2.png": "/TechnologyCenter/static/media/screenshot2.373e9e531a13f547bca4.png",
     "static/media/screenshot1.png": "/TechnologyCenter/static/media/screenshot1.447d907aea088174fcb3.png",
     "index.html": "/TechnologyCenter/index.html",
     "main.67307552.css.map": "/TechnologyCenter/static/css/main.67307552.css.map",
-    "main.5be7402e.js.map": "/TechnologyCenter/static/js/main.5be7402e.js.map"
+    "main.9f1b387b.js.map": "/TechnologyCenter/static/js/main.9f1b387b.js.map"
   },
   "entrypoints": [
     "static/css/main.67307552.css",
-    "static/js/main.5be7402e.js"
+    "static/js/main.9f1b387b.js"
   ]
 }
